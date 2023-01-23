@@ -6,44 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition Table</title>
-    <style>
-        .container {
-            display: flex;
-            flex-direction: column;
-            border: 1px solid black;
-            width: 500px;
-            padding: 10px;
-        }
-        
-        .line {
-            margin: 0;
-        }
-        
-        hr {
-            height: 10px;
-            width: 90%;
-            color: black;
-            background-color: black;
-            margin-left: 0;
-            margin-bottom: 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="exercise1.css">
 </head>
 
 <body>
     <div class="container">
         <h1 class="line">Nutrition Facts</h1>
         <h4 class="line">Serving Size 1 cup (50g)<br> Serving Per Container 10</h4>
-        <hr>
-        <h6 class="line">with 1/2 <br> cup 1%</h6>
-        <div class="3columns">
-            <h6 class="line">Amount Per Serving </h6>
-            <h6>Cereal</h6>
-            <h6>Milk</h6>
+        <hr class="fat">
+        <h6 class="line right">with 1/2 <br> cup 1%</h6>
+        <div class="columns3">
+            <h6 class="row1">Amount Per Serving </h6>
+            <h6 class="row2">Cereal</h6>
+            <h6 class="row3">Milk</h6>
         </div>
+        <hr>
+        <div class="columns3">
+            <h4 class="row1">Calories</h4>
+            <h4 class="row2">190</h4>
+            <h4 class="row3">250</h4>
+
+        </div>
+        <hr>
+        <div class="columns3_2">
+            <h4 class="row1">Calories from Fat</h4>
+            <h4 class="row2">35</h4>
+            <h4 class="row3">45</h4>
+        </div>
+        <hr class="semi_fat">
+        <h6 class="line right">% Daily Value**</h6>
+        <div class="columns3">
+            <h4 class="row1">Total Fat 4g*</h4>
+            <h4 class="row2">6%</h4>
+            <h4 class="row3">8%</h4>
+        </div>
+        <hr>
 
 
-        <p class="line"></p>
+
+
+
 
     </div>
 
