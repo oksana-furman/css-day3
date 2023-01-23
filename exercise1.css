@@ -1,13 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 85%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     width: 350px;
     padding: 10px;
-}
-
-.line {
-    margin: 0;
+    margin: 50px;
 }
 
 .right {
@@ -16,46 +22,89 @@
 
 hr {
     width: 100%;
-    margin: 0;
+}
+
+.hr2 {
+    width: 90%;
+    margin-left: 20px;
 }
 
 .fat {
     height: 10px;
     color: black;
     background-color: black;
-    margin-left: 0;
-    margin-bottom: 0;
 }
 
 .semi_fat {
     height: 5px;
     color: black;
     background-color: black;
-    margin-left: 0;
-    margin-bottom: 0;
 }
 
 .columns3 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .row1 {
-    text-align: left;
-    width: 70%;
-    margin: 0;
-}
-
-.row2,
-.row3 {
-    width: 15%;
-    margin: 0;
-    text-align: right;
+    flex-basis: 70%;
 }
 
 .columns3_2 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+}
+
+.columns3_2 .row1 {
+    padding-left: 20px;
+    flex-basis: 65%;
+}
+
+.columns4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    flex-basis: 39%;
+}
+
+.column2 {
+    flex-basis: 25%;
+}
+
+.column3 {
+    flex-basis: 18%;
+}
+
+.column4 {
+    flex-basis: 18%;
+}
+
+.columns4_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns4_2 .column1 {
+    padding-left: 20px;
+    flex-basis: 34%;
+}
+
+.colCent {
+    display: flex;
+    justify-content: center;
+}
+
+.colCent>p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.columns3_2 .row1 {
+    /*padding-left: 20px;*/
+}
+
+.columns3_2 .row2 .row3 {
+    /* padding-left: -20px;*/
 }
